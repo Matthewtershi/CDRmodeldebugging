@@ -39,7 +39,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-SMEW
-Soil-Structure
-venv
+SMEW/
+Soil-Structure/
+venv/
 requirements.txt
