@@ -1,13 +1,6 @@
 env\Scripts\activate for backend
 venv\Scripts\activate for model
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Matthewtershi/CDRmodeldebugging.git
-git push -u origin main
-
 Notes: 
 DRF
 Model state persistence 
@@ -24,3 +17,6 @@ https://www.youtube.com/watch?v=YS55S41x2cA&ab_channel=CodingMSTR
 
 for fetching
 https://www.youtube.com/watch?v=iqlgr1AQt9Q&ab_channel=Pyplane
+
+npm install axios react-router-dom jwt-decode
+KEY COMMITS BETWEEN 7 to 9 BACKEND MIGRATIONS IMPORTANT
