@@ -40,5 +40,9 @@ yarn-error.log*
 next-env.d.ts
 
 Soil-Structure/
+# for model
 venv/
+# for backend
 env/
+
+db.sqlite3
