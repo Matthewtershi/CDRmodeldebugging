@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
 from .models import Note
+from .models import Graph
 
 # ORM Object Relational Mapping
 # Maps python objects to corresponding code
@@ -22,4 +23,16 @@ class NoteSerializer(serializers.ModelSerializer):
         model = Note
         fields = ["id", "title", "content", "created_at", "author"]
         extra_kwargs = {"author": {"read_only":True}}
+
+class GraphSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Graph
+        fields= [
+            "id",
+            "number",
+            "author",
+            "created_at"
+        ]
+        extra_kwargs = {"author": {"read_only":True}}
+
         
